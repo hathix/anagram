@@ -1,0 +1,36 @@
+/* YOUR CSS STYLES */
+
+.jumbotron {
+  background-image: url("../img/african-kids.jpg");
+  background-position: 0 -75px;
+  color: white;
+}
+
+.centered {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+/* map */
+.map {
+  stroke: black;
+}
+
+/* tree diagram */
+.link {
+  stroke: royalblue;
+  fill: none;
+}
+
+.node-dot {
+  fill: royalblue;
+}
+
+.node-dot:hover {
+  fill: skyblue;
+}
+
+.link:hover {
+  stroke: skyblue;
+}
