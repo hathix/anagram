@@ -25,6 +25,9 @@ $('#run-check')
       $('#result-success')
         .addClass('hidden');
     }
+
+    // prevent form's default action (viz. to submit)
+    return false;
   })
 
 
