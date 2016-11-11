@@ -1,36 +1,21 @@
-/* YOUR CSS STYLES */
+/* Sticky footer styles
+-------------------------------------------------- */
 
-.jumbotron {
-  background-image: url("../img/african-kids.jpg");
-  background-position: 0 -75px;
-  color: white;
+html {
+  position: relative;
+  min-height: 100%;
 }
 
-.centered {
-  margin: auto;
-  display: block;
-  text-align: center;
+body {
+  /* Margin bottom by footer height + some padding */
+  margin-bottom: 80px;
 }
 
-/* map */
-.map {
-  stroke: black;
-}
-
-/* tree diagram */
-.link {
-  stroke: royalblue;
-  fill: none;
-}
-
-.node-dot {
-  fill: royalblue;
-}
-
-.node-dot:hover {
-  fill: skyblue;
-}
-
-.link:hover {
-  stroke: skyblue;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  margin-bottom: 0;
 }
