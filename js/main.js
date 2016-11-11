@@ -1,3 +1,4 @@
+// start by unit testing
 runTests();
 
 // check anagrams on button click
